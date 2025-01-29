@@ -57,7 +57,7 @@ Saleor is a headless e-commerce platform built with Python (Django) and GraphQL.
 
   ## Approach
 
-  1. **User Role Identification**
+1. **User Role Identification**
      - Modify the user model to include a `user_type` field (B2C or B2B).
      - Set this field during **signup** based on a key provided by the user.
      - Store this information in the database.
